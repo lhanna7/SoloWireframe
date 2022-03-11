@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Niconne&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Russo+One&display=swap');
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: 	hsl(222, 71%, 14%);
+    color: white;
+    padding: 20px;
+}
+
+
+a {
+    text-decoration: none;
+    color: white;
+    color: inherit;
+    text-transform: uppercase;
+    font-family: 'Russo One', sans-serif;
+}
+
+.navlist > li {
+    display: inline-block;
+    margin-left: 30px;
+}
+
+.right {
+    border: solid 1px white;
+    padding: 10px 30px;
+    border-radius: 10px;
+}
+
+header:hover {
+    background-color: white;
+    color: hsl(222, 71%, 14%);
+    transition: 3s;
+}
+
+a:hover {
+    color: hsl(224, 100%, 50%);
+    transition: 1s;
+} 
+
+.right:hover {
+    border: solid 1px;
+    border-color: inherit;
+    padding: 10px 30px;
+    border-radius: 10px;
+}
+
+h1 {
+    font-family: 'Niconne', cursive;
+    font-size: 50px;
+}
