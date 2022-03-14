@@ -80,15 +80,92 @@ ul {
 .maingrid1 {
     display: grid;
     grid-template-columns: 50% 50%;
+    text-align: center;
+    margin-top: 100px;
+    margin-left: 50px;
+    margin-right: 50px;
+    column-gap: 3%;
 }
 
 .subgrid {
     display: grid;
-    grid-template-columns: 33% 33% 33%;
-    grid-template-rows: 50% 50%;
-    grid-row-gap: 1px;
+    grid-template-columns: 1fr 1fr 1fr;
+    row-gap: 20%;
+}
+
+h2 {
+    font-size: 35px;
+    margin-bottom: 25px;
+}
+
+.firstp {
+    font-size: 25px;
+    margin-bottom: 45px;
 }
 
 .image {
-    height: 20%;
+    height: 200px;
+}
+
+.image:hover {
+    height: 240px;
+    transition: 1s;
+    cursor: pointer;
+}
+
+.bigimage {
+    height: 400px;
+}
+
+.bigimage:hover {
+    height: 440px;
+    transition: 1s;
+    cursor: pointer;
+}
+
+h3 {
+    font-size: 28px;
+    margin: 30px;
+    margin-top: 50px;
+}
+
+.secondp {
+    font-size: 22px;
+}
+
+.midsection {
+    display: grid;
+    grid-template-columns: 60% 40%;
+    margin-top: 150px;
+    background-color: hsl(222, 71%, 14%);
+    padding: 40px;
+    padding-left: 8%;
+    color: white;
+    text-align: center;
+}
+
+.midimage {
+    height: 400px;
+}
+
+.midimage:hover {
+    height: 440px;
+    transition: 1s;
+    cursor: pointer;
+}
+
+.midright {
+    padding-right: 50%;
+    padding-top: 50px;
+}
+
+.midp {
+    padding: 30px;
+
+}
+
+.stream {
+    text-decoration: underline;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: bold;
 }
