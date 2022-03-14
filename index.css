@@ -9,6 +9,8 @@ header {
     background-color: 	hsl(222, 71%, 14%);
     color: white;
     padding: 20px;
+    padding-left: 50px;
+    padding-right: 50px;
 }
 
 
@@ -82,8 +84,8 @@ ul {
     grid-template-columns: 50% 50%;
     text-align: center;
     margin-top: 100px;
-    margin-left: 50px;
-    margin-right: 50px;
+    margin-left: 100px;
+    margin-right: 100px;
     column-gap: 3%;
 }
 
@@ -91,6 +93,7 @@ ul {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     row-gap: 20%;
+    padding-left: 30px;
 }
 
 h2 {
@@ -104,21 +107,21 @@ h2 {
 }
 
 .image {
-    height: 200px;
+    width: 80%;
 }
 
 .image:hover {
-    height: 240px;
+    width: 90%;
     transition: 1s;
     cursor: pointer;
 }
 
 .bigimage {
-    height: 400px;
+    width: 90%;
 }
 
 .bigimage:hover {
-    height: 440px;
+    width: 100%;
     transition: 1s;
     cursor: pointer;
 }
@@ -142,14 +145,15 @@ h3 {
     padding-left: 8%;
     color: white;
     text-align: center;
+    align-items: center;
 }
 
 .midimage {
-    height: 400px;
+    width: 60%;
 }
 
 .midimage:hover {
-    height: 440px;
+    width: 70%;
     transition: 1s;
     cursor: pointer;
 }
@@ -168,4 +172,52 @@ h3 {
     text-decoration: underline;
     font-family: 'Ubuntu', sans-serif;
     font-weight: bold;
+}
+
+.bottomgrid {
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 30px;
+    font-weight: bold;
+    display: grid;
+    grid-template-columns: 6fr 1fr 1fr 1fr 1fr;
+    padding: 50px;
+}
+
+.bottomgrid > span {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    row-gap: 5%;
+}
+
+h4 {
+    padding-bottom: 20px;
+}
+
+.bottombuttons {
+    border: solid 1px hsl(222, 71%, 14%);
+    text-align: center;
+    padding: 20px;
+    border-radius: 20px;
+}
+
+#login {
+    background-color: hsl(222, 71%, 14%);
+    color: white;
+}
+
+.copyright {
+    padding: 40px;
+    padding-left: 90px;
+}
+
+.socials {
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.footer {
+    display: grid;
+    grid-template-columns: 4fr 1fr;
+    align-items: center;
 }
