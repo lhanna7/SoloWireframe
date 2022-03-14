@@ -79,6 +79,16 @@ ul {
 
 .maingrid1 {
     display: grid;
-    grid-template-rows: 4 6;
-    grid-template-columns: 2px 1fr;
+    grid-template-columns: 50% 50%;
+}
+
+.subgrid {
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+    grid-template-rows: 50% 50%;
+    grid-row-gap: 1px;
+}
+
+.image {
+    height: 20%;
 }
