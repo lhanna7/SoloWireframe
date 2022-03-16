@@ -11,6 +11,7 @@ header {
     padding: 20px;
     padding-left: 50px;
     padding-right: 50px;
+    transition: background-color 3s;
 }
 
 @media (max-width: 824px){
@@ -62,7 +63,7 @@ a {
 header:hover {
     background-color: white;
     color: hsl(222, 71%, 14%);
-    transition: 3s;
+    
 }
 
 a:hover {
